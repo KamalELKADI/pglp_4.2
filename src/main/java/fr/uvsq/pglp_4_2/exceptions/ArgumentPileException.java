@@ -1,4 +1,4 @@
-package fr.uvsq.pglp.command.rpn.exc;
+package fr.uvsq.pglp_4_2.exceptions;
 
 /**
  * Exception pour la pile
