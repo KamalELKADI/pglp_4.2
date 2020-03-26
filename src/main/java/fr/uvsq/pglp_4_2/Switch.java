@@ -3,9 +3,7 @@ package fr.uvsq.pglp_4_2;
 public class Switch {
 	private boolean switchOn;
 
-	/**
-	 * @param switchOn
-	 */
+	
 	public Switch() {
 		this.switchOn = true;
 	}
