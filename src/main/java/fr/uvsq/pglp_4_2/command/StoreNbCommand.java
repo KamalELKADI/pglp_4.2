@@ -7,8 +7,7 @@ import fr.uvsq.pglp_4_2.ExceptionHandler;
 
 
 public class StoreNbCommand implements UndoableCommand {
-	
-	/** # RECEIVER: Stack<Double> **/
+
 	
 	private double nb;
 	private Stack<Double> pile;
