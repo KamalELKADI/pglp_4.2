@@ -1,10 +1,6 @@
 package fr.uvsq.pglp_4_2.exceptions;
 
-/**
- * Exception pour la division par zéro
- * @author Maxime
- * @date 18/10/2018
- */
+
 public class DivisionParZeroException extends ArithmeticException {
 
 	/**
