@@ -1,19 +1,13 @@
-package fr.uvsq.pglp.command.rpn.cmd;
+package fr.uvsq.pglp_4_2.command;
 
-import fr.uvsq.pglp.command.rpn.Switch;
 
 public class QuitCommand implements Command {
-	
-	/** # RECEIVER: Switch **/
-	
-	private Switch interrupteur;
-	
-	public QuitCommand(Switch interrupteur) {
-		this.interrupteur = interrupteur;
-	}
 
 	@Override
 	public void apply() {
-		interrupteur.turnOff();
+		// TODO Auto-generated method stub
+		
 	}
+	
+
 }
