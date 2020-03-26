@@ -2,6 +2,8 @@ package fr.uvsq.pglp_4_2.command;
 
 import java.util.Stack;
 
+import fr.uvsq.pglp_4_2.ExceptionHandler;
+
 public class UndoCommand implements Command {
 	
 
