@@ -1,10 +1,10 @@
 package fr.uvsq.pglp_4_2.command;
 
+import java.util.Stack;
+
 public class UndoCommand implements Command {
 	
-	/**
-	 * # RECEIVER: historique et commande
-	 */
+
 	
 	private UndoableCommand lastCommand;
 	
@@ -13,7 +13,6 @@ public class UndoCommand implements Command {
 		this.lastCommand = historique.pop();
 	}
 
-	@Override
 	public void apply() {
 		lastCommand.undo();		
 	}

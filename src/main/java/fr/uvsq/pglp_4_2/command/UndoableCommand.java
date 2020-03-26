@@ -1,4 +1,4 @@
-package fr.uvsq.pglp.command.rpn.cmd;
+package fr.uvsq.pglp_4_2.command;
 
 /**
  * @author Maxime
